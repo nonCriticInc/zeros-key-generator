@@ -1,4 +1,4 @@
-module github.com/zeros-key-generator
+module github.com/nonCriticInc/zeros-key-generator
 
 go 1.15
 
