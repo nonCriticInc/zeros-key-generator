@@ -1,13 +1,10 @@
-package main
+package v1
 
-import (
-	v1 "github.com/zeros-key-generator/src/rsa/v1"
-	"log"
-)
+import "log"
 
-func main() {
+func example1() {
 
-	pri,pub,err:=v1.New().Generate(struct {
+	pri,pub,err:=New().Generate(struct {
 		ConvertToString bool
 		ReturnByteArray bool
 	}{ConvertToString:false , ReturnByteArray: false})
@@ -21,4 +18,3 @@ func main() {
 	log.Println(pri)
 
 }
-
