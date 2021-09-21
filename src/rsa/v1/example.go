@@ -13,8 +13,7 @@ func example1() {
 		log.Println(err)
 	}
 
-	log.Print(pub)
-	log.Println("")
+	log.Println(pub)
 	log.Println(pri)
 
 }
